@@ -163,11 +163,11 @@ public class CoolingMain {
 		clearButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
             	//Set all text fields to a blank string
-            	tsField.setText(null);
-            	t0Field.setText(null);
-            	tempField.setText(null);
-            	kField.setText(null);
-            	timeField.setText(null);
+            	tsField.setText("");
+            	t0Field.setText("");
+            	tempField.setText("");
+            	kField.setText("");
+            	timeField.setText("");
  	
             }
             });
